@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map K.39 on Wed Mar 06 16:20:27 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sw_i<6>" LOCATE = SITE "K14" LEVEL 1;
+COMP "sw_i<7>" LOCATE = SITE "K13" LEVEL 1;
+COMP "led7_seg_o<0>" LOCATE = SITE "P16" LEVEL 1;
+COMP "led7_seg_o<1>" LOCATE = SITE "N16" LEVEL 1;
+COMP "led7_seg_o<2>" LOCATE = SITE "F13" LEVEL 1;
+COMP "led7_seg_o<3>" LOCATE = SITE "R16" LEVEL 1;
+COMP "led7_seg_o<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "led7_seg_o<5>" LOCATE = SITE "N15" LEVEL 1;
+COMP "led7_seg_o<6>" LOCATE = SITE "G13" LEVEL 1;
+COMP "led7_seg_o<7>" LOCATE = SITE "E14" LEVEL 1;
+COMP "led7_an_o<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "led7_an_o<1>" LOCATE = SITE "G14" LEVEL 1;
+COMP "led7_an_o<2>" LOCATE = SITE "F14" LEVEL 1;
+COMP "led7_an_o<3>" LOCATE = SITE "E13" LEVEL 1;
+COMP "sw_i<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "sw_i<1>" LOCATE = SITE "G12" LEVEL 1;
+COMP "sw_i<2>" LOCATE = SITE "H14" LEVEL 1;
+COMP "sw_i<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "sw_i<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "sw_i<5>" LOCATE = SITE "J13" LEVEL 1;
+SCHEMATIC END;
+

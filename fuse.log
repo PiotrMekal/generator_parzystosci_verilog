@@ -1,0 +1,28 @@
+Running : C:\Xilinx\10.1\ISE\bin\nt\unwrapped\fuse.exe -ise
+C:/Designs/Mekal_Tomaszewski/generator_parzystosci/generator_parzystosci.ise
+-intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib
+xilinxcorelib_ver -o testbench_isim_beh.exe -prj testbench_beh.prj -top
+testbench -top glbl
+Determining compilation order of HDL files
+Analyzing Verilog file top.v
+Analyzing Verilog file testbench.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.top into
+c:/designs/mekal_tomaszewski/generator_parzystosci/isim/work/top.sdb
+Saving Verilog parse-tree work.testbench into
+c:/designs/mekal_tomaszewski/generator_parzystosci/isim/work/testbench.sdb
+Saving Verilog parse-tree work.glbl into
+c:/designs/mekal_tomaszewski/generator_parzystosci/isim/work/glbl.sdb
+Starting static elaboration
+WARNING:HDLCompiler:189 - "testbench.v" Line 24. Actual bit length 1 differs
+   from formal bit length 4 for port led7_an_o
+Completed static elaboration
+Fuse Memory Usage: 54236 Kb
+Fuse CPU Usage: 109 ms
+Compiling module glbl
+Compiling module top
+Compiling module testbench
+Compiled 3 Verilog Units
+Built simulation executable testbench_isim_beh.exe
+Fuse Memory Usage: 55520 Kb
+Fuse CPU Usage: 124 ms
